@@ -4,8 +4,11 @@ Need Help displaying 0-100% on 4 Digit Display when using a rotary angle sensor 
 
 
 #include "TM1637.h"
+
 #define CLK 38
+
 #define DIO 37
+
 #define ROTARY_ANGLE_P  24
 #define Full_Angle 300
 #define ADC_REF 5
